@@ -1,0 +1,16 @@
+{
+  "name": "project-name",
+  "version": "1.0.0",
+  "description": "描述",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "cd src && WinRAR.exe a -r ..\\index.zip ./*.* && explorer .."
+  },
+  "devDependencies": {
+    "@soeyu/dev-template-parser": "^0.4.6",
+    "@types/jquery": "^3.5.29",
+    "vite": "^5.0.2"
+  },
+  "type": "module"
+}
