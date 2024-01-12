@@ -2,8 +2,8 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   server: {
     proxy: {
-      '^/(hrb-screen|harbin|web|communication)/': {
-        target: 'https://www.harbin.gov.cn',
+      '^/(x|y|z)/': {
+        target: 'https://www.xyz.com',
         changeOrigin: true,
       },
     },
